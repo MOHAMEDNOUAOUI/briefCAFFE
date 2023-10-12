@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+    text-decoration: none;
+}
+
+body {
+  background-color: #E3D9D5;
+}
+
+.hero {
+  background: linear-gradient(0deg, var(--gradiant-maron, rgba(29, 23, 20, 0.84)) 0%, var(--gradiant-maron, rgba(29, 23, 20, 0.84)) 100%), url(/images/pngtree-coffee-drink-hot-drink-tea-picture-image_2392457.jpg), lightgray 50% / contain no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover; 
+  background-position: center;
+}
+
+header {
+  width: 100%;
+  height: 103px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.80) 0%, rgba(0, 0, 0, 0.00) 100%);
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px
+}
+
+.logo {
+  margin-left: 84px
+} 
+
+header ul li{
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  margin-right: 64px;
+  font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+color: white;
+}
+
+/* fin de header secion */
+
+/*map section*/
+.centermap {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  width: 70%;
+  height: 70%;
+  margin: 0 auto;
+  gap: 70px;
+}
+
+.mapsafi iframe {
+  width: 500px;
+  height: 400px;
+}
+
+
+.locationtext {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 20px;
+  color: white;
+}
+.locationtext h2 {
+  width: 500px;
+}
+.locationtext h1,.locationtext h2,.locationtext h3 {
+  font-weight: 400;
+}
+
+.undermap {
+  margin-left: 8%;
+  color: white;
+}
+
+/*HOURS SHIFT */
+.OPERNING-HOURS {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #B1A5A0 0%, #DDCEC7 100%);
+
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+  height: 70vh;
+  position: relative;
+  gap: 80px;
+  color: #1D1816;
+}
+
+.OPERNING-HOURS h2,.OPERNING-HOURS h1 {
+  font-family: 'Irish Grover';
+}
+
+.box-brown {
+  background-color: #471E22;
+  width: 391.328px;
+  height: 130px;
+  border-radius: 10px;
+  background: rgba(34, 27, 24, 0.60);
+}
+
+.OPERNING-HOURS .right {
+  display: flex;
+align-items: flex-start;
+gap: 80px;
+font-size: 20px;
+}
+
+.OPERNING-HOURS .left h1 {
+position: absolute;
+top: 45%;
+left: 25%;
+font-size: 60px;
+}
+
+.right .MON-FRI h2,.right .SUN-SAT h2{
+  margin-bottom: 20px;
+}
+
+/* footer section */
+footer {
+    height: 80vh;
+    width: 100%;
+    position: static;
+    bottom: 0;
+    background-image: url(/images/image\ 9.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.gradiant {
+    position: absolute;
+    background: var(--gradiant-maron, rgba(29, 23, 20, 0.84));
+    width: 100%;
+    height: 80vh;
+}
+
+footer section {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    width: 800px;
+}
+footer section ul li {
+    list-style: none;
+    color: white;
+}
+
+footer h3 {
+    color: white;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer img {
+  width: 150px;
+}
+
+
+.BOTTOM-TEXT {
+    position: absolute;
+    bottom: 50px;
+    font-size: 10px;
+    color: white;
+    font-weight: 400;
+}

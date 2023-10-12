@@ -1,0 +1,44 @@
+*{
+  text-decoration: none;
+  list-style: none;
+}
+
+/* HOME PAGE */
+.middle button,.text-WELCOME button{
+  transition: 300ms;
+}
+.middle button:hover,.text-WELCOME button:hover {
+  background-color: white;
+  color: #B77E66;
+  cursor: pointer;
+}
+
+.item {
+  transition: 300ms ease-in;
+}
+
+.item:hover {
+  background-color: white;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.item:hover h2,
+.item:hover p {
+  color: black;
+}
+.R1,.R2,.R3 {
+  transition: 300ms ease-in;
+}
+.R1:hover{
+  cursor: pointer;
+  transform: scale(1.1) translate(-20%,-10%);
+}
+.R2:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.R3:hover{
+  cursor: pointer;
+  transform: scale(1.1) translate(20%,-10%);
+}
